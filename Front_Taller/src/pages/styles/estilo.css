@@ -1,0 +1,46 @@
+.table-fixed tbody{
+    height: 350px;
+    overflow: auto;
+    width: 100%;
+  
+  }
+  
+  .table-fixed thead,
+  .table-fixed tbody,
+  .table-fixed td,
+  .table-fixed th{
+    display: block;
+  }
+  
+  .table-fixed tbody td,
+  .table-fixed thead >tr >th{
+    float: left;
+    border-bottom: 0;
+  }
+  
+  .trt {
+    width: 400px;
+  }
+  
+  .th1t,.th3t,.th10t{
+    width:70px;
+  }
+  .th11t{
+    width: 200px;
+  }
+  
+  .th5t,.th8t,.th9t{
+    width: 90px;
+  }
+  .th6t{
+    width: 85px;
+  }
+  .th2t{
+    width: 115px;
+  }
+  .th4t{
+    width: 90px;
+  }
+  .th7t{
+    width: 80px;
+  }
