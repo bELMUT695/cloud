@@ -77,18 +77,30 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.mysql',
+   #     'NAME':'mydb' ,
+    #    'USER':'root',
+     #   'PASSWORD':'V71858727NEM',
+      #  'HOST':'127.0.0.1',
+       # 'PORT':3306,
+    #}
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'mydb' ,
-        'USER':'root',
-        'PASSWORD':'V71858727NEM',
-        'HOST':'127.0.0.1',
+        'NAME':'heroku_39863' ,
+        'USER':'b902d897028e88',
+        'PASSWORD':'91c79616',
+        'HOST':'us-cdbr-east-03.cleardb.com',
         'PORT':3306,
     }
 }
 
-
+#mysql://b902d897028e88:91c79616@us-cdbr-east-03.cleardb.com/heroku_39863
+#09e344c683?
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
