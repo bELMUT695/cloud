@@ -96,7 +96,7 @@ DATABASES = {
         'USER':'b902d897028e88',
         'PASSWORD':'91c79616',
         'HOST':'us-cdbr-east-03.cleardb.com',
-        'PORT':3306,
+        
     }
 }
 
