@@ -21,7 +21,7 @@ SECRET_KEY = '^fs4x$1t=ivv%)^s=09(@e0@o%=rg=fcx4v*$)p73flicxuvtj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['fast-eyrie-07444.herokuapp', '127.0.0.1']
 
