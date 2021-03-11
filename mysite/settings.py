@@ -23,7 +23,7 @@ SECRET_KEY = '^fs4x$1t=ivv%)^s=09(@e0@o%=rg=fcx4v*$)p73flicxuvtj'
 #DEBUG = True
 DEBUG = True
 
-ALLOWED_HOSTS = ['fast-eyrie-07444.herokuapp', '127.0.0.1']
+ALLOWED_HOSTS = ['fast-eyrie-07444.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
