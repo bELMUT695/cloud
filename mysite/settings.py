@@ -23,7 +23,7 @@ SECRET_KEY = '^fs4x$1t=ivv%)^s=09(@e0@o%=rg=fcx4v*$)p73flicxuvtj'
 #DEBUG = True
 DEBUG = True
 
-ALLOWED_HOSTS = ['fast-eyrie-07444.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -146,4 +146,4 @@ JWT_AUTH = {
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'mysite.utils.my_jwt_response_handler'
 }
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
